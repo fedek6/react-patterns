@@ -14,7 +14,6 @@ const ListDemo = () => {
           itemComponent={(p) => <MovieCharacterItem {...p} />}
           resourceName="movieCharacter"
         />
-
         <ReusableList
           items={horrorCharacters}
           itemComponent={(p) => <HorrorCharacterItem {...p} />}
