@@ -1,12 +1,14 @@
 import { SplitPane } from "./SplitPane";
 import { DemoContainer } from "../../components/DemoContainer";
+import { CurrentMood } from "../../components/CurrentMood";
+import { LoremIpsum } from "../../components/LoremIpsum";
 
 export default function SplitPaneDemo() {
   return (
     <DemoContainer>
       <SplitPane>
-        <div>Pane 1</div>
-        <div>Pane 2</div>
+        <CurrentMood mood="😀" />
+        <LoremIpsum />
       </SplitPane>
     </DemoContainer>
   );

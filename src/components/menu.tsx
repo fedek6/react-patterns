@@ -1,4 +1,6 @@
 import { Menu as MenuType } from "../config";
+import { Link } from "react-router-dom"
+import { nanoid } from 'nanoid';
 
 interface Props {
   elements: MenuType[];
@@ -9,8 +11,8 @@ export const Menu: React.FC<Props> = ({ elements }) => {
     <nav>
       <ul>
         {elements.map((element) => (
-          <li>
-            <a href={element.path}>{element.title}</a>
+          <li key={nanoid()}>
+            <Link to={element.path}>{element.title}</Link>
           </li>
         ))}
       </ul>

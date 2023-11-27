@@ -5,7 +5,7 @@ interface Props {
 }
 
 const Container = tw.div`flex p-8 w-full`;
-const LeftContainer = tw.div`p-8`;
+const LeftContainer = tw.div`p-8 min-w-[300px]`;
 const RightContainer = tw.main`p-8 border-t border-t-black flex-grow`;
 
 export const Layout: React.FC<Props> = ({ children }) => {
