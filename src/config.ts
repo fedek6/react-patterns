@@ -9,7 +9,7 @@ export const MENU: Menu[] = [
     title: "Home",
   },
   {
-    path: "layout-components/split-pane",
+    path: "/layout-components/SplitPane.tsx",
     title: "Layout components/Split pane",
   },
 ];

@@ -1,14 +1,7 @@
-import { Layout } from "../components/layout";
-import { Menu } from "../components/menu";
-import { MENU } from "../config";
-
 export default function Root() {
   return (
     <>
-      <Layout>
-        <Menu elements={MENU} />
-        <h1>React patterns</h1>
-      </Layout>
+      <h1 className="font-serif font-bold text-2xl">React patterns</h1>
     </>
   );
 }
