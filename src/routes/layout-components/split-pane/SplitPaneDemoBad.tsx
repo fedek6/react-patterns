@@ -1,6 +1,6 @@
-import { DemoContainer } from "../../components/DemoContainer";
-import { Paragraph } from "../../components/Paragraph";
-import { LoremIpsum } from "../../components/LoremIpsum";
+import { DemoContainer } from "../../../components/DemoContainer";
+import { Paragraph } from "../../../components/Paragraph";
+import { LoremIpsum } from "../../../components/LoremIpsum";
 import tw from "twin.macro";
 
 const Container = tw.div`flex w-full`;

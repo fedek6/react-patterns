@@ -1,6 +1,6 @@
-import { DemoContainer } from "../../components/DemoContainer";
+import { DemoContainer } from "../../../components/DemoContainer";
 import { SplitPaneBetter } from "./SplitPaneBetter";
-import { LoremIpsum } from "../../components/LoremIpsum";
+import { LoremIpsum } from "../../../components/LoremIpsum";
 import { CurrentMood } from "./SplitPaneDemoBad";
 
 const SplitPaneDemoBad = () => {

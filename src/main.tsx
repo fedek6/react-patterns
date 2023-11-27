@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./routes/root";
-import SplitPaneDemo from "./routes/layout-components/SplitPaneDemo";
+import SplitPaneDemo from "./routes/layout-components/split-pane/SplitPaneDemo";
 import "./index.css";
 
 const router = createBrowserRouter([
